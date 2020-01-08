@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -85,9 +86,9 @@
                 <p>Bienvenido a nuestra página web donde podrás jugar a la Oca, pero con un toque diferente.
                     BLABLABLABALBLABALBALABLABLABLABLA
                 </p>
-                
+
                 <a href="{{url('/home')}}" class="btn btn-success">JUGAR!</a>
-                
+
             </div>
         </div>
     </body>

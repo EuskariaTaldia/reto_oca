@@ -1,5 +1,8 @@
 @extends('layouts.master')
 
+<div class="card-body">
+    <h4>{{ auth()->user()->user }} </h4>
+ </div>
 @section('content')
 
     <h2>Imprimir el listado:<h2>
@@ -33,10 +36,10 @@
                     <option value="Oceania">Oceanía</option>
                     <option value="Africa">África</option>
             </select>
-        </div>    
+        </div>
     </div>
 
-    <hr>    
+    <hr>
 
     <h6 style="display: flex;justify-content: center;align-items: center;">Leyenda</h6>
     <div class="leyenda">
@@ -71,14 +74,14 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                
+
                 <a href="#">Ver más</a>
             </div>
         </div>
-        
-                
+
+
         <?php
-            }        
+            }
         ?>
     </div>
 

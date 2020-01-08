@@ -1,9 +1,11 @@
 @extends('layouts.master')
-
-@section('content')
+    <div class="card-body">
+        <h4>{{ auth()->user()->user }} </h4>
+    </div>
+ @section('content')
 
     <h2>Formulario para la creacion de una nueva mujer:<h2>
-            
+
     <form action="#" target="" method="get" name="formDatosPersonales">
 
         <label for="nombre">Nombre y apellido</label>
